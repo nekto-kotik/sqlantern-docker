@@ -47,6 +47,8 @@ php_value max_input_time 300\n\
 
 # Apache must be run as a program in this case, not as a service (as far as I could understand; I'm very new to Docker)
 RUN echo -e '#!'"/bin/sh\n\
+cd /var/www/localhost/htdocs\n\
+git pull\n\
 ln -sf /dev/stderr /var/log/apache2/error.log\n\
 mkdir -p /run/apache2 && /usr/sbin/httpd -D FOREGROUND\n\
 exit \"\$@\"\n\
