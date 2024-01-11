@@ -27,7 +27,7 @@ docker run -d -p 1111:1111 --rm sqlantern
   -  Docker host IP address, e.g. "http://192.168.1.112:1111/"
 
 ## Notes
-SQLantern in this container is always fresh (always cloned from the public repository).
+SQLantern in this container is always fresh (updated from GitHub on every container run).
 
 Web-server in the container listens to port 1111 internally.
 
