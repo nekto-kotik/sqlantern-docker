@@ -23,7 +23,7 @@ docker run -d -p 1111:1111 --rm sqlantern
 * Open "http://localhost:1111/" in your web-browser (if you run Docker on the same machine).
 
 * If "localhost" doesn't work, the container also responds to:
-  -  "http://sqlantern.local:1111/" (add it to your "hosts", using your Docker host's IP)
+  -  "http://sqlantern.local:1111/" (add "sqlantern.local" to your "hosts", using your Docker host's IP)
   -  Docker host IP address, e.g. "http://192.168.1.112:1111/"
 
 ## Notes
