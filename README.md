@@ -16,7 +16,7 @@ docker run -d -p 1111:1111 --rm nektowastaken/sqlantern
 
 * Or build and run the container from source:
 ```
-docker build -t sqlantern
+docker build -t sqlantern .
 docker run -d -p 1111:1111 --rm sqlantern
 ```
 
